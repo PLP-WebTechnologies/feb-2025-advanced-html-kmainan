@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+        <title>HTML Lists, Images, Tables & Forms</title>
+    </head>
+    <body>
+        <h2>HTML Lists.</h2>
+        <h3>Ordered Lists</h3>
+        <ol type="i" start="1">
+            <li>September</li>
+            <li>October</li>
+            <li>November</li>
+            <li>December</li>
+        </ol>
+        <h2>HTML Images</h2>
+        <img src="https://images.pexels.com/photos/1387037/pexels-photo-1387037.jpeg?auto=compress&cs=tinysrgb&w=600"
+
+        <h3>HTML Tables</h3>
+        <table border="1">
+        <caption>Contacts</caption>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</yh>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>James</td>
+                <td>Nairobi</td>
+                <td>0721456789</td>
+                <td>james@example.com</td>
+            </tr>
+            <tr>
+                <td>Ann</td>
+                <td>Arusha</td>
+                <td>0722456789</td>
+                <td>ann@example.com</td>
+            </tr>
+            <tr>
+                <td>Charles</td>
+                <td>Pretoria</td>
+                <td>0723456789</td>
+                <td>charles@example.com</td>
+            </tr>
+            <tr>
+                <td>Mary</td>
+                <td>Lagos</td>
+                <td>0724456789</td>
+                <td>mary@example.com</td>
+            </tr>
+            <tr>
+                <td>Victor</td>
+                <td>Texas</td>
+                <td>0725456789</td>
+                <td>victor@example.com</td>
+            </tr>
+        </tbody>
+        </table>
+        <h3>HTML Forms</h3>
+        <form action="method=">
+            <lable for="full_name">Full Names</lable><br>
+            <input type="text" id="full_name" name="full_name" placeholder="Enter your full name" required>
+            <br><br>
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="email" required>
+            <br><br>
+            <label for="password">Password</label><br>
+            <input type="password" id="password" name="password" required>
+            <br><br>
+            <label for="date">Date</label><br>
+            <input type="date" id="date" name="date" required>
+            <br><br>
+            <label for="gender">Gender</label><br>
+                <input type="radio" name="gender" value="Male">Male
+                <input type="radio" name="gender" value="Female">Female
+                <br><br>
+                <label for="languages">Languages</label><br>
+                <input type="checkbox" name="languages" value="English">English
+                <input type="checkbox" name="languages" value="Swahili">Swahili
+                <input type="checkbox" name="languages" value="French">French
+                <input type="checkbox" name="languages" value="Spanish">Spanish
+                <br><br>
+                <label for="country">Country</label><br>
+                <select name="country" id="country">
+                    <option>--Select Country--</option>
+                    <option value="Kenya">Kenya</option>
+                    <option value="Senegal">Senegal</option>
+                    <option value="Uganda">Uganda</option>
+                    <option value="Botswana">Botswana</option>
+                    <option value="Nigeria">Nigeria</option>
+                </select>
+                <br><br>
+              <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
